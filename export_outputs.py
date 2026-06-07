@@ -2,7 +2,6 @@ import pandas as pd
 
 df = pd.read_csv('GeoLite2-Country-Locations-fr.csv', keep_default_na=False)
 
-
 eu_only = df[df['is_in_european_union'] == 1]
 
 # 1. Export as an Excel file

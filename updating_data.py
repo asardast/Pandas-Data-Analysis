@@ -3,7 +3,6 @@ import pandas as pd
 df = pd.read_csv('GeoLite2-Country-Locations-fr.csv', keep_default_na=False)
 
 # Creating a dictionary to translate continent names from French to English
-
 continent_translation = {
     'Europe': 'Europe',
     'Asie': 'Asia',
